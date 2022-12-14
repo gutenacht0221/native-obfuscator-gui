@@ -1,6 +1,8 @@
 <h1>Native Obfuscator GUI</h1>
 <p>This uses radioegor146's native obfuscator (https://github.com/radioegor146), but everything is automated by this little thing</p>
 
+<p>Native obfuscation converts Java class files to native code which is compiled and relinked to the original program through the Java Native Interface. No trace of the original Java bytecode remains, and no deobfuscation tool that works on class files can recover the original code.</p>
+
 <h2>Setup</h2>
 <p>First, you need to install java. You can download it below</p>
 
