@@ -5,7 +5,7 @@ window = ctk.CTk()
 window.title('Native Obfuscator GUI')
 window.geometry("750x500")
 window.set_appearance_mode("dark")
-ctk.set_default_color_theme("blue")
+ctk.set_default_color_theme("green")
 window.resizable(False, False)
 
 cwd = os.getcwd()
