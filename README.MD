@@ -13,6 +13,7 @@ You need to make sure that you allow it to install on all or just this current u
 
 <h2>Downloads</h2>
 JDK 8: https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html#license-lightbox
+
 CMake: https://github.com/Kitware/CMake/releases/download/v3.25.1/cmake-3.25.1-windows-x86_64.msi
 
 <h2>Disclaimer</h2>
