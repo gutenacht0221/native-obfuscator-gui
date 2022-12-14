@@ -86,14 +86,14 @@ def obfuscate():
     shutil.copy("native_library.dll", "x64-macos.dylib")
     os.chdir(cwd)
 
-    x64macos = f"{cwd}\\Native\\out\\cpp\\build\\lib\\x64-macos.dylib" # x64-macos.dylib path
-    x64windows = f"{cwd}\\Native\\out\\cpp\\build\\lib\\x64-windows.dll" # path to the x64-windows.dll file
-    x86windows = f"{cwd}\\Native\\out\\cpp\\build\\lib\\x86-windows.dll" # path to the x86-windows.dll file
+    x64macos = f"{cwd}\\Native\\out\\cpp\\build\\lib\\x64-macos.dylib"
+    x64windows = f"{cwd}\\Native\\out\\cpp\\build\\lib\\x64-windows.dll"
+    x86windows = f"{cwd}\\Native\\out\\cpp\\build\\lib\\x86-windows.dll"
 
     with zipfile.ZipFile(f"{cwd}\\Native\\out\\{name}", "a") as jar:
-        jar.write(x64macos, "native0/x64-macos.dylib") # MacOS
-        jar.write(x64windows, "native0/x64-windows.dll") # Windows
-        jar.write(x86windows, "native0/x86-windows.dll") # x86-windows.dll
+        jar.write(x64macos, "native0/x64-macos.dylib")
+        jar.write(x64windows, "native0/x64-windows.dll")
+        jar.write(x86windows, "native0/x86-windows.dll")
 
     if not os.path.exists(f"{cwd}\\output"):
         os.mkdir(f"{cwd}\\output")
