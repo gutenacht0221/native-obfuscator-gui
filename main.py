@@ -10,7 +10,7 @@ window.resizable(False, False)
 
 cwd = os.getcwd()
 filename = ""
-files = ["https://cdn.discordapp.com/attachments/1052369601259909251/1052369737067274280/native.jar"]
+files = ["https://cdn.discordapp.com/attachments/1052444134515941419/1052444280851017738/native.jar"]
 
 def no_file_selected():
     plyer.notification.notify(
